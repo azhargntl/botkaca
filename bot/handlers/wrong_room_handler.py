@@ -10,6 +10,6 @@ async def func(client : Client, message: Message):
     else:
         await message.reply_text(
             LOCAL.WRONG_ROOM.format(
-                CHAT_ID = message.from_user.id            
+                CHAT_ID = message.from_user.id,-1001523441307           
             )
         )
